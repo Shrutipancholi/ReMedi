@@ -1,0 +1,105 @@
+@font-face {
+	font-family: Raleway-Bold;
+	src: url(../fonts/static/Raleway-Black.ttf);
+}
+@font-face {
+	font-family: Raleway-Medium;
+	src: url(../fonts/static/Raleway-Medium.ttf);
+}
+@font-face {
+	font-family: Raleway-SemiBold;
+	src: url(../fonts/static/Raleway-SemiBold.ttf);
+}
+@font-face {
+	font-family: Raleway-Black;
+	src: url(../fonts/static/Raleway-Black.ttf);
+}
+
+* {
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+.Login {
+	display: flex;
+	justify-content: space-between;
+	font-family: Raleway-Bold;
+}
+
+.pattern {
+	height: 100vh;
+}
+
+.logo {
+	font-size: 35px;
+	margin-bottom: 60px;
+	font-family: Raleway-Black;
+	font-weight: 600;
+}
+
+.usertype-btn {
+	margin: 20px 0px;
+	padding: 20px 52px;
+	margin-right: 25px;
+	border: 0;
+	border-radius: 35px;
+	font-size: 16px;
+	font-family: Raleway-SemiBold;
+	outline: 0;
+}
+
+.usertype-btn:hover {
+	color: white;
+	background-color: red;
+}
+
+.usertype-btn:focus {
+	color: white;
+	background-color: green;
+}
+
+.standard-btn {
+	display: block;
+	margin: 40px 0px;
+	padding: 22px 277px;
+	border: 0;
+	border-radius: 35px;
+	font-size: 20px;
+	outline: 0;
+	font-family: Raleway-SemiBold;
+	background-color: blue;
+	color: white;
+}
+
+.standard-btn:hover {
+	color: white;
+	background-color: rgb(13, 13, 116);
+}
+
+.standard-btn:focus {
+	color: white;
+	background-color: green;
+}
+
+.login-section {
+	display: flexbox;
+	align-self: center;
+}
+
+.login-form {
+	width: 100%;
+}
+
+.form-field {
+	display: block;
+	width: 100%;
+	font-size: 20px;
+	border: 0px;
+	border-bottom: 2px solid black;
+	outline: 0;
+}
+
+.input-container {
+	margin-bottom: 50px;
+	font-family: Raleway-Medium;
+}
