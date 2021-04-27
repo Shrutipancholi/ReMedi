@@ -1,0 +1,20 @@
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _web = require("./web3");
+
+var _web2 = _interopRequireDefault(_web);
+
+var _ReMedi = require("./build/ReMedi.json");
+
+var _ReMedi2 = _interopRequireDefault(_ReMedi);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var instance = new _web2.default.eth.Contract(_ReMedi2.default.abi, "0x79E8208d9511337f8C1c5CDeB6c9f320153eDe5b");
+exports.default = instance;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInVua25vd24iXSwibmFtZXMiOlsiaW5zdGFuY2UiLCJldGgiLCJDb250cmFjdCIsImFiaSJdLCJtYXBwaW5ncyI6Ijs7Ozs7O0FBQUE7Ozs7QUFDQTs7Ozs7O0FBRUEsSUFBSUEsV0FBVyxJQUFJLGNBQUtDLEdBQUwsQ0FBU0MsUUFBYixDQUFzQixpQkFBT0MsR0FBN0IsRUFBa0MsNENBQWxDLENBQWY7a0JBQ2VILFEiLCJmaWxlIjoidW5rbm93biIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB3ZWIzIGZyb20gXCIuL3dlYjNcIjtcbmltcG9ydCBSZU1lZGkgZnJvbSBcIi4vYnVpbGQvUmVNZWRpLmpzb25cIjtcblxudmFyIGluc3RhbmNlID0gbmV3IHdlYjMuZXRoLkNvbnRyYWN0KFJlTWVkaS5hYmksIFwiMHg3OUU4MjA4ZDk1MTEzMzdmOEMxYzVDRGVCNmM5ZjMyMDE1M2VEZTViXCIpO1xuZXhwb3J0IGRlZmF1bHQgaW5zdGFuY2U7Il19
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInVua25vd24iXSwibmFtZXMiOlsiaW5zdGFuY2UiLCJldGgiLCJDb250cmFjdCIsImFiaSJdLCJtYXBwaW5ncyI6Ijs7Ozs7O0FBQUE7Ozs7QUFDQTs7Ozs7O0FBRUEsSUFBSUEsV0FBVyxJQUFJLGNBQUtDLEdBQUwsQ0FBU0MsUUFBYixDQUFzQixpQkFBT0MsR0FBN0IsRUFBa0MsNENBQWxDLENBQWY7a0JBQ2VILFEiLCJmaWxlIjoidW5rbm93biJ9
