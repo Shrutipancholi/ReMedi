@@ -45,7 +45,7 @@ contract ReMedi {
         return patientToFiles[msg.sender];
     }
 
-    function getAccessFiles() public view returns (File[] memory) {
+    function getAccessFiles() public view doctorRestricted(msg.sender) returns (File[] memory) {
         return access_files[msg.sender];
     }
 
