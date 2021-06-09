@@ -29,6 +29,7 @@ class Access extends Component {
 						<label>File Hash</label>
 						<Form.Input
 							value={this.state.filehash}
+							type = 'password'
 							onChange={(event) => {
 								this.setState({ filehash: event.target.value });
 							}}
@@ -61,6 +62,7 @@ class Access extends Component {
 						<label>File Hash</label>
 						<Form.Input
 							value={this.state.filehash}
+							type='password'
 							onChange={(event) => {
 								this.setState({ filehash: event.target.value });
 							}}
