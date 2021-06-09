@@ -40,14 +40,14 @@ class Users extends Component {
 					.create_patient(this.state.patientName)
 					.send({ from: accounts[0] });
 
-				Router.pushRoute(`/Patient/${accounts[0]}`);
+				//Router.pushRoute(`/Patient/${accounts[0]}`);
 			} else if (this.state.doctorName !== "") {
 				this.setState({ dloading: true });
 				await ReMedi.methods
 					.create_doctor(this.state.doctorName)
 					.send({ from: accounts[0] });
 				console.log(this.state.doctorName);
-				Router.pushRoute(`/Doctor/${accounts[0]}`);
+				//Router.pushRoute(`/Doctor/${accounts[0]}`);
 			}
 		} catch (err) {
 			if (this.state.patientName !== "")
