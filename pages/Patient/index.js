@@ -36,7 +36,7 @@ class PatientPage extends Component {
 				description: file[3],
 				extra: (
 					<Container textAlign="center">
-						<a href={`https://www.ipfs.io/ipfs/${file[0]}`}>
+						<a href={`https://ipfs.io/ipfs/${file[0]}`} target="_blank">
 							<Button primary>View File</Button>
 						</a>
 						<Button onClick={() => navigator.clipboard.writeText(file[0])}>
