@@ -1,4 +1,4 @@
-// deployed contract address = 0x79efDFf9E69dFC7A303a0e7047098156c36fEbCe
+// deployed contract address = 0x1eA429D7868ab2B642fB399b30f97b8a431Ac04a
 
 const HDWalletProvider = require("truffle-hdwallet-provider");
 const Web3 = require("web3");
