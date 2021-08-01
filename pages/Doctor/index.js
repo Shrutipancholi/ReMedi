@@ -35,7 +35,7 @@ class DoctorPage extends Component {
 				meta: `From : ${file[1]}`,
 				extra: (
 					<Container textAlign="center">
-						<a href={`https://www.ipfs.io/ipfs/${file[0]}`}>
+						<a href={`https://ipfs.io/ipfs/${file[0]}`} target="_blank">
 							<Button color="green" fluid>
 								View File
 							</Button>
