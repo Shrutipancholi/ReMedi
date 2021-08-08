@@ -154,7 +154,7 @@ class Users extends Component {
 												Router.pushRoute(`Doctor/${accounts[0]}`);
 											}}
 										>
-											Continue as docor
+											Continue as doctor
 										</Button>
 									</Grid.Column>
 								</Grid.Row>
