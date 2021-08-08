@@ -3,6 +3,6 @@ import ReMedi from "./build/ReMedi.json";
 
 const instance = new web3.eth.Contract(
 	ReMedi.abi,
-	"0x1eA429D7868ab2B642fB399b30f97b8a431Ac04a"
+	"0x3338BF7A9D9763400Cc6b92306A6E1dAE53a495F"
 );
 export default instance;
